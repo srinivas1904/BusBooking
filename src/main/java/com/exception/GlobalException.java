@@ -6,6 +6,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -13,10 +14,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 /**
  * Global exception handler class for all the HTTP type requests.
  * 
- * @author Pardeep
+ * @author 
  * @version 1.0
  */
 @ControllerAdvice
+@RestController
 public class GlobalException {
 
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());

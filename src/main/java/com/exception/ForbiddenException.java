@@ -3,7 +3,7 @@ package com.exception;
 /**
  * Forbidden Exception Handler class.
  * 
- * @author Devasheesh
+ * @author 
  * @version 1.0
  */
 public class ForbiddenException extends RuntimeException {

@@ -3,7 +3,7 @@ package com.exception;
 /**
  * Unprocessable entity request exception handler class.
  * 
- * @author Devasheesh
+ * @author 
  * @version 1.0
  */
 public class UnprocessableEntityException extends RuntimeException {

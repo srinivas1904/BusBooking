@@ -3,7 +3,7 @@ package com.exception;
 /**
  * Request not found exception handler class.
  * 
- * @author Devasheesh
+ * @author 
  * @version 1.0
  */
 public class NotFoundException extends RuntimeException {

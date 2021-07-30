@@ -3,7 +3,7 @@ package com.exception;
 /**
  * Bad Request Exception Handler class.
  * 
- * @author Devasheesh 
+ * @author  
  * @version 1.0
  */
 public class BadRequestException extends RuntimeException {
